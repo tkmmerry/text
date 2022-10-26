@@ -1,0 +1,254 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.container{
+    width: 1140px;
+    padding: 0 100px;
+}
+a{
+    text-decoration: none;
+}
+body{
+    font-family: "Roboto",sans-serif;
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    animation: ani 1s ease-in-out alternate;
+}
+@keyframes ani {
+    0%{
+        transform: translateY(-200px);
+    }
+   100%{
+       transform: translateY(0);
+   }
+}
+
+.navbar-logo{
+    display: flex;
+    align-items: center;
+}
+.navbar-logo a{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+    padding: 0 30px;
+    transition: .4s;
+}
+.navbar-logo select{
+    font-weight: 400;
+    font-size: 18px;
+    color: rgba(31, 46, 53, 0.8);
+    margin: 0 20px;
+    border: none;
+    outline: none;
+}
+.navbar-icons icon{
+    display: flex;
+
+}
+.navbar-logo a:hover{
+    color: red;
+    text-decoration-line:underline;
+    transform: scale(1.1);
+}
+.hero{
+    padding-top: 70px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+}
+.hero-block{
+    animation: anim 2s ease-in-out alternate;
+}
+@keyframes anim {
+    0%{
+        transform: translateX(-1000px);
+    }
+}
+.img{
+    animation: img 2s ease-in-out alternate;
+}
+@keyframes img {
+    0%{
+        transform: translateX(1000px);
+    }
+    100%{
+        transform: translateX(0);
+    }
+}
+.hero-block h1{
+    font-weight: 700;
+    font-size: 48px;
+    line-height: 133.69%;
+    color: #1F2E35;
+}
+.hero-block h1 span{
+    color: crimson;
+}
+.hero-block p{
+    font-weight: 400;
+    font-size: 20px;
+    line-height: 29px;
+    color: #30444E;
+    letter-spacing: 1px;
+    padding: 20px 0;
+}
+.hero-block button{
+    padding: 10px 30px;
+    background: #EE4248;
+    box-shadow: 1px 2px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 4px;
+    border: none;
+    color: white;
+    cursor: pointer;
+}
+.hero-block button:hover{
+    background: transparent;
+    transform: scale(1.1);
+    color: black;
+}
+.welcome{
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.welcome p{
+    padding-bottom: 30px;
+    font-size: 16px;
+    color: #1F2E35;
+}
+.welcome-to{
+    width: 500px;
+}
+.welcome-to h1{
+    padding-bottom: 20px;
+    color: #1F2E35;
+    font-size: 28px;
+    font-weight: 600;
+}
+.welcome-to h1 span{
+    color: #EE4248;
+}
+.product h1{
+    font-weight: 500;
+    font-size: 32px;
+    line-height: 133.69%;
+    text-align: center;
+    padding: 100px;
+    color: #1F2E35;
+}
+.blocks{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.block-one h2{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+    padding: 10px 0 15px 0;
+}
+.block-one p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    padding: 0 0 15px 0;
+}
+.block-one button{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.69%;
+    color: #FFFFFF;
+    background: #EE4248;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.block-two h2{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+    padding: 10px 0 15px 0;
+}
+.block-two p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    padding: 0 0 15px 0;
+}
+.block-two button{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.69%;
+    color: #FFFFFF;
+    background: #EE4248;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.block-three h2{
+    font-weight: 500;
+    font-size: 28px;
+    line-height: 133.69%;
+    color: #EE4248;
+    padding: 10px 0 15px 0;
+}
+.block-three p{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 150%;
+    color: #30444E;
+    padding: 0 0 15px 0;
+}
+.block-three button{
+    font-weight: 400;
+    font-size: 18px;
+    line-height: 144.69%;
+    color: #FFFFFF;
+    background: #EE4248;
+    border-radius: 4px;
+    padding: 0 10px;
+}
+.logo{
+    display: flex;
+    align-items: center;
+
+}
+
+.logo-about h1{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #263238;
+    padding: 0 0 10px 0;
+}
+
+.logo-three h1{
+    font-weight: 500;
+    font-size: 24px;
+    line-height: 28px;
+    color: #263238;
+}
+
+.logo-three p{
+    font-weight: 300;
+    font-size: 18px;
+    line-height: 149.19%;
+    color: #263238;
+}
+.logo-three{
+    padding: 150px 100px;
+}
+#footer{
+    background: #EE4248;
+    font-weight: 400;
+    padding: 5px 15 0px;
+}
